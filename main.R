@@ -137,9 +137,9 @@ b4 <- nrow(filter(jedinstveno, Tip_centra_programa_za_lečenje == "4 - Izabrani 
 c4 <- nrow(filter(jedinstveno, Tip_centra_programa_za_lečenje == "4 - Izabrani lekar" & Da_li_se_lice_ranije_lečilo_od_bolesti_zavisnosti_povezane_sa_psihoaktivnim_supstancama == "0 - Nepoznat podatak"))
 d4 <- a4 + b4 + c4
 
-a5 <- 0
-b5 <- 0
-c5 <- 0
+a5 <- 0 ## !Hardcode!
+b5 <- 0 ## !Hardcode!
+c5 <- 0 ## !Hardcode!
 d5 <- a5 + b5 + c5
 
 a6 <- nrow(filter(jedinstveno, Tip_centra_programa_za_lečenje == "5 - Drugo" & Da_li_se_lice_ranije_lečilo_od_bolesti_zavisnosti_povezane_sa_psihoaktivnim_supstancama == "5 - Ne, nije se nikad ranije lečilo"))
@@ -147,9 +147,9 @@ b6 <- nrow(filter(jedinstveno, Tip_centra_programa_za_lečenje == "5 - Drugo" & 
 c6 <- nrow(filter(jedinstveno, Tip_centra_programa_za_lečenje == "5 - Drugo" & Da_li_se_lice_ranije_lečilo_od_bolesti_zavisnosti_povezane_sa_psihoaktivnim_supstancama == "0 - Nepoznat podatak"))
 d6 <- a6 + b6 + c6
 
-a7 <- 0
-b7 <- 0
-c7 <- 0
+a7 <- 0 ## !Hardcode!
+b7 <- 0 ## !Hardcode!
+c7 <- 0 ## !Hardcode!
 d7 <- a7 + b7 + c7
 
 a8 <- a1 + a2 + a3 + a4 + a5 + a6 + a7
